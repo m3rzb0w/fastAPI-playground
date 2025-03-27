@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Live Progress Bar</h1>
+    <h2>{{ request.headers.get("user-agent", "Unknown") }}</h2>
     <button onclick="startProcess()">Start</button>
     
     <div style="width:100%; background:#9c9a9a; margin-top:10px;">
